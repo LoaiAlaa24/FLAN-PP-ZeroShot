@@ -1,0 +1,19 @@
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+numpy>=1.18.5,<1.24.0
+opencv-python>=4.1.1
+Pillow>=7.1.2
+requests>=2.23.0
+torch>=1.7.0,!=1.12.0
+torchvision>=0.8.1,!=0.13.0
+tqdm>=4.41.0
+flask==2.2.2
+timm==0.6.13
+pytest==7.2.2
+sentry-sdk==1.18.0
+blinker==1.6.2
+gunicorn==20.1.0
+black==23.3.0
+flasgger==0.9.5
+datasets==2.4.0 ; python_version >= "3.8" and python_version < "3.9"
